@@ -1,0 +1,26 @@
+{
+  "name": "node-validator",
+  "version": "1.0.0",
+  "description": "Node validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravivarma1192/node-validator.git"
+  },
+  "keywords": [
+    "node",
+    "validator",
+    "node-validator",
+    "form-validator",
+    "form-validation"
+  ],
+  "author": "Ravi Varma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravivarma1192/node-validator/issues"
+  },
+  "homepage": "https://github.com/ravivarma1192/node-validator#readme"
+}
