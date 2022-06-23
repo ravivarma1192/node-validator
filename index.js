@@ -25,4 +25,4 @@ const validate = (body, rules) => {
     return Object.keys(validator).length == 0 ? true : validator
 }
 
-exports.validate;
+module.exports = validate;
