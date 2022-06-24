@@ -1,6 +1,6 @@
 {
   "name": "nodeinputform-validator",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Node validator",
   "main": "index.js",
   "scripts": {
