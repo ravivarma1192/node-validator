@@ -1,8 +1,8 @@
-#nodeinputform-validator
+nodeinputform-validator
 
 Node input formvalidator is to validate form input
 
-#How to use?
+## How to use?
 
 ```javascript
 let isValid = validate(req.body, [
@@ -20,9 +20,9 @@ let isValid = validate(req.body, [
 
 isValid will return with true or error in the request data
 
-#we can use callback method to add custom validation rule
+we can use callback method to add custom validation rule
 
-Example :
+## Example :
 
 ````javascript
 {
@@ -33,6 +33,23 @@ Example :
     }
 ```
 
+## Use as middleware
+
+instead of validate function you can use as a middleware
+
+## Example
+```javascript
+(req, res, next) => useValidator(req.body, [
+    {
+        key: "userid",
+        required: true
+    }, {
+        key: "queryid",
+        required: true,
+    }
+], res, next)
+
+```
 
 
 ````
