@@ -16,6 +16,7 @@ let isValid = validate(req.body, [
     type: "email", //optional parameters (email, phone, string)
   },
 ]);
+
 ```
 
 isValid will return with true or error in the request data
@@ -24,13 +25,14 @@ we can use callback method to add custom validation rule
 
 ## Example :
 
-````javascript
+```javascript
 {
     key: "queryid",
     required: true,
     validator: (key, value) =>{
         //use your own logic here and return error in string or true
     }
+
 ```
 
 ## Use as middleware
@@ -50,6 +52,3 @@ instead of validate function you can use as a middleware
 ], res, next)
 
 ```
-
-
-````
